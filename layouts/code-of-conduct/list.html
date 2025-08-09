@@ -1,0 +1,23 @@
+{{ define "main" }}
+  {{ partial "page-header" . }}
+  <section class="section pt-7">
+    <div class="container">
+      <div class="row justify-center">
+        <div class="lg:col-10">
+          <div class="content">
+            {{ .Content }}
+          </div>
+          {{/*  <div class="mt-16">
+            {{ partial "components/content-contribute-cta.html" (dict
+              "icon" "solid graduation-cap"
+              "title" "Interested in working with us as a <span class=\"gradient-text\">Mentor?</span>"
+              "description" "Work with us to democratise access to mentorship and break systemic barriers. All mentors are selected not only for their expertise but also for their commitment to the values of the Application Lab: access, empathy, and clarity."
+              "link" "/work-with-us/"
+              "link_text" "Get Involved Now"
+            ) }}
+          </div>  */}}
+        </div>
+      </div>
+    </div>
+  </section>
+{{ end }}

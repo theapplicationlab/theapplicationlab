@@ -1,0 +1,240 @@
+// assets/scss/_typography-custom.scss
+
+// Define link colors as variables
+$link-color: var(--color-primary-new);
+$link-hover-color: var(--color-secondary-new);
+$link-underline-color: color-mix(in srgb, var(--color-primary-new) 40%, transparent);
+$link-underline-hover-color: var(--color-secondary-new);
+
+$dark-link-color: var(--color-darkmode-primary);
+$dark-link-hover-color: #ffffff;
+$dark-link-underline-color: color-mix(in srgb, var(--color-darkmode-primary) 50%, transparent);
+$dark-link-underline-hover-color: #ffffff;
+
+// Gradient text class
+.gradient-text {
+  background: linear-gradient(135deg, var(--color-primary-new) 0%, var(--color-secondary-new) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent !important;
+}
+
+// Specific overrides for header navigation links if Tailwind classes aren't enough
+.navbar-nav .nav-link {
+  @apply text-gray-700 dark:text-darkmode-light px-3 py-2;
+}
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link.active {
+  color: var(--color-primary-new);
+}
+
+// Ensure the logo text picks up the gradient if it's text-based
+.navbar-brand.gradient-text {
+  // Gradient is applied by the class itself.
+}
+
+h1.homepage {
+  font-size: 1.7em;
+}
+
+nav#TableOfContents {
+  background-color: transparent !important;
+
+  ul, ol {
+    @apply list-none p-0 m-0 space-y-1;
+  }
+
+  li {
+    @apply m-0 p-0;
+  }
+
+  a {
+    @apply block rounded-md text-sm transition-all duration-200 ease-in-out;
+    padding: 0.4rem 0.75rem;
+    text-decoration: none !important;
+    border-left: 3px solid transparent;
+    line-height: 1.4;
+
+    &:hover {
+      background-color: theme('colors.body');
+      border-left-color: theme('colors.border');
+    }
+  }
+
+  li.active > a {
+    background-color: rgba(102, 126, 234, 0.1); // Tint of primary color
+    border-left-color: var(--color-primary-new);
+  }
+
+  ul ul, ol ol {
+    @apply pl-4 mt-1 mb-1;
+    border-left: 1px solid theme('colors.border');
+  }
+}
+
+// Dark Mode Overrides for ToC
+.dark {
+  nav#TableOfContents {
+    a {
+
+      &:hover {
+        background-color: rgba(255, 255, 255, 0.05);
+        border-left-color: theme('colors.darkmode.border');
+      }
+    }
+
+    li.active > a {
+      background-color: rgba(188, 251, 255, 0.1); // Tint of dark primary
+      border-left-color: theme('colors.darkmode.primary');
+    }
+
+    ul ul, ol ol {
+      border-left-color: theme('colors.darkmode.border');
+    }
+  }
+}
+
+.code span {
+  color: #000;
+}
+
+figcaption {
+  color: #000;
+  margin-top: 0 !important;
+}
+
+.authorContent {
+  ul li {
+    list-style: disc;
+    margin-left: 25px;
+    padding: 10px 30px 10px 0;
+  }
+
+  p {
+    margin-bottom: 10px;
+  }
+}
+
+
+//Links
+a {
+  overflow-wrap: break-word;
+}
+
+// REFACTORED: Centralized Link Styling
+.styled-link,
+.content :is(:where(a):not(:where([class~="not-prose"], [class~="not-prose"] *, .btn))),
+section a:not(.breadcrumb-link-parent, .social-link-container, .btn, .hardware-card-wide-link, .social-icon, .no-style),
+section a.social-link-container .social-link-text,
+.breadcrumb-link-text,
+.author-card-compact h4 a,
+.hardware-card-wide-link h3 {
+  font-weight: inherit;
+  color: inherit !important;
+  text-decoration-line: underline !important;
+  text-decoration-thickness: 0.1em !important;
+  text-underline-offset: 3px !important;
+  transition: all 0.2s ease-in-out;
+  text-decoration-color: $link-underline-color !important;
+
+  &:hover {
+    text-decoration-color: $link-underline-hover-color !important;
+  }
+
+  .dark & {
+    text-decoration-color: $dark-link-underline-color !important;
+    &:hover {
+      text-decoration-color: $dark-link-underline-hover-color !important;
+    }
+  }
+}
+
+// Container for hardware card link, which contains the h3 we want styled
+.hardware-card-wide-link {
+  text-decoration: none !important;
+}
+
+h1 a, h2 a, h3 a, h4 a, h5 a {
+  text-decoration: none !important;
+  font-weight: inherit !important;
+}
+
+.social-icons a {
+  color: #FFF !important;
+}
+
+.dark {
+  figcaption {
+    color: #FFF;
+  }
+
+  h1 a, h2 a, h3 a, h4 a, h5 a {
+    color: #ffffff !important;
+  }
+
+  nav#TableOfContents {
+    li.active a {
+      color: #bcfbff !important;
+      font-weight: 600 !important;
+    }
+  }
+
+  .social-icons a {
+    color: #000 !important;
+  }
+
+  .author-card-compact h4 a {
+    color: #bcfbff !important;
+  }
+
+  .role-compact {
+    @apply text-sm text-text dark:text-darkmode-text mt-1;
+  }
+}
+
+// Style for the date badge within an event card context
+.event-card .date-badge {
+  background-color: var(--color-primary-new);
+  @apply text-white py-2 px-4 rounded-md text-sm font-semibold inline-block;
+}
+
+.software-hacking-hours-promo {
+  .past-event-promo {
+    .flex {
+      div h4 a {
+        font-size: 1.1rem;
+      }
+    }
+  }
+}
+// --- Breadcrumb Links ---
+a.breadcrumb-link-parent {
+  text-decoration-line: none !important;
+}
+
+.image-attribution-caption {
+  // Positioning for the container div
+  @apply text-right text-xs italic -mt-8 mb-4 pr-2 relative z-10;
+
+  .attribution-backdrop {
+    // Styling for the text's background
+    @apply inline-block px-2 py-1 rounded-md;
+    background-color: rgba(0, 0, 0, 0.6); // Semi-transparent black
+    backdrop-filter: blur(2px); // Optional: adds a nice blur effect on supported browsers
+    color: white;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5); // Adds a subtle shadow for pop
+
+    // Link styling within the backdrop
+    a {
+      color: #bcfbff !important; // Bright, readable link color
+      text-decoration: underline !important;
+      text-underline-offset: 2px;
+      transition: color 0.2s;
+
+      &:hover {
+        color: #ffffff !important; // Brighten on hover
+      }
+    }
+  }
+}

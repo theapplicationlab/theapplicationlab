@@ -1,0 +1,167 @@
+############# English navigation ##############
+
+# main menu
+
+# Explore Resources - New Top-Level Parent
+[[main]]
+name = "Explore Resources"
+url = "/resources/"
+weight = 1
+hasChildren = true
+identifier = "explore-resources" # Add this identifier
+
+
+[[main]]
+parent = "explore-resources" # Match the identifier
+name = "Resources"
+url = "/resources/"
+weight = 1
+[main.params]
+  icon = "fas fa-pen-to-square"
+  description = "Your central hub to the Application Lab Resources."
+
+[[main]]
+parent = "explore-resources" # Match the identifier
+name = "Downloadable Resources"
+url = "/resources/downloadable-resources/"
+weight = 6
+[main.params]
+  icon = "fas fa-file-arrow-down"
+  description = "Collection of downloadable resources."
+
+[[main]]
+parent = "explore-resources" # Match the identifier
+name = "Workshops"
+url = "/workshops/"
+weight = 7
+[main.params]
+  icon = "fas fa-chalkboard-user"
+  description = "Expert-led workshops on various topics."
+
+[[main]]
+parent = "explore-resources" # Add this new entry
+name = "FAQ"
+url = "/resources/faq/"
+weight = 8
+[main.params]
+  icon = "fas fa-clipboard-question"
+  description = "Frequently Asked Questions."
+
+[[main]]
+parent = "explore-resources" # Add this new entry
+name = "Blog"
+url = "/blog/"
+weight = 8
+[main.params]
+  icon = "fas fa-newspaper"
+  description = "Read blog posts on various topics."
+
+[[main]]
+name = "Mentorship"
+url = "/mentorship/"
+weight = 2
+
+[[main]]
+name = "About"
+hasChildren = true
+weight = 4 # No change needed
+
+[[main]]
+parent = "About"
+name = "About Application Lab"
+url = "/about-aplab/"
+weight = 1
+
+[[main]]
+parent = "About"
+name = "Why We Started"
+url = "/why-we-started/"
+weight = 2
+
+[[main]]
+parent = "About"
+name = "Meet the Founders"
+url = "/meet-the-founders/"
+weight = 3
+
+[[main]]
+parent = "About"
+name = "Getting Involved"
+url = "/work-with-us/"
+weight = 4
+
+[[main]]
+parent = "About"
+name = "Contact Us"
+url = "/contact-us/"
+weight = 5
+
+
+
+# --- New Footer Menus (replace the old [[footer]], [[footer_explore]], [[footer_legal]]) ---
+
+# Explore Column
+[[footer_explore_new]]
+  name = "Application Lab Resources"
+  url = "/resources/"
+  weight = 1 # Set to 1
+[[footer_explore_new]]
+  name = "Mentorship Program"
+  url = "/mentorship/"
+  weight = 2 # Incremented from 1
+[[footer_explore_new]]
+  name = "Blog"
+  url = "/blog/"
+  weight = 3 # Incremented from 2
+[[footer_explore_new]]
+  name = "Downloadable Resources"
+  url = "/resources/downloadable-resources/"
+  weight = 4 # Incremented from 3
+  [[footer_explore_new]]
+  name = "Frequently Asked Questions"
+  url = "/resources/faq/"
+  weight = 5 # Incremented from 4
+
+# Community Column
+[[footer_community]]
+  name = "Get Involved"
+  url = "/work-with-us/"
+  weight = 1
+[[footer_community]]
+  name = "Workshops"
+  url = "/workshops/"
+  weight = 2
+[[footer_community]]
+  name = "Contact Us"
+  url = "/contact-us/"
+  weight = 3
+[[footer_community]]
+  name = "Meet the Founders"
+  url = "/meet-the-founders/"
+  weight = 4
+[[footer_community]]
+  name = "Join Our WhatsApp Group"
+  url = "https://chat.whatsapp.com/JgONfqufJQlKl53XPAddIM?mode=ac_t"
+  weight = 5
+
+# About & Legal Column
+[[footer_legal_new]]
+  name = "About Application Lab"
+  url = "/about-aplab/"
+  weight = 1
+[[footer_legal_new]]
+  name = "Why We Started"
+  url = "/why-we-started/"
+  weight = 2
+[[footer_legal_new]]
+  name = "Code of Conduct"
+  url = "/code-of-conduct/"
+  weight = 3
+[[footer_legal_new]]
+  name = "Privacy Policy"
+  url = "/privacy/"
+  weight = 4
+[[footer_legal_new]]
+  name = "Terms & Conditions"
+  url = "/terms-conditions/"
+  weight = 5

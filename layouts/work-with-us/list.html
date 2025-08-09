@@ -1,0 +1,38 @@
+{{ define "main" }}
+{{ partial "page-header" . }}
+
+<section class="section pt-6 mt-0 pb-16">
+  <div class="container">
+    <div class="mt-6 mb-12">
+      {{ partial "components/content-contribute-cta.html" (dict
+      "icon" "solid comments"
+      "title" "Join the <span class=\"gradient-text\">Conversation</span>"
+      "description" "The Application Lab Community thrives on collaboration. Join our WhatsApp Group, attend an event, or contribute to the blog to help students achieve their goals."
+      "link" "https://chat.whatsapp.com/JgONfqufJQlKl53XPAddIM?mode=ac_t"
+      "link_text" "Join Our WhatsApp Community"
+      ) }}
+    </div>
+
+
+    {{/* Display the new guide cards */}}
+    <div class="row gx-5 gy-8">
+      {{ range .Params.sections }}
+        <div class="{{ .column }} mb-6 last:mb-0 md:mb-0">
+          {{/* Updated partial call to pass page_context */}}
+          {{ partial "components/guide-card.html" (dict
+              "title" .title
+              "url" .url
+              "icon" .icon
+              "description" .description
+              "key_areas" .key_areas
+              "cta_text" .cta_text
+              "page_context" $.Page
+          )}}
+        </div>
+      {{ end }}
+    </div>
+
+
+  </div>
+</section>
+{{ end }} 

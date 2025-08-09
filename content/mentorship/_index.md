@@ -1,0 +1,61 @@
+---
+title: "Mentorship"
+description: "Get Personalised Guidance for Your Global Applications."
+---
+
+## How We Work
+
+> <h4>Personalised Matching</h4><p>Students share their goals, timeline, target programmes and Universities by filling a form. We recommend the best mentorship plan according to their needs and carefully match each student with a mentor based on discipline, university interests, and individual goals.</p>
+
+> <h4>Flexible, Online Sessions</h4><p>All sessions are conducted online and scheduled directly with your mentor for convenience and flexibility; Work with the same mentor for continuity, or choose different mentors based on your evolving needs and application stage.</p>
+
+> <h4>Actionable, Honest Feedback</h4><p>Mentors provide honest, practical guidance and actionable feedback at every stage of the application process/ help in reviewing your documents in a fair and timely manner/help crafting your story with clarity and confidence</p>
+
+> <h4>Post-Admissions Support</h4><p>Continued support through connections with peer & alumni network, after you receive admission/ ongoing academic & career guidance/ successful applicants encouraged to become future mentors</p>
+<br>
+
+## What We Offer
+
+<h2><span class="gradient-text">1. Lab Pass (Monthly Mentorship Plan)</span></h2>
+Designed for students who are looking for structured, ongoing support across multiple stages of their application journey. This is best suited for students who are building their research profile ahead of future applications/applicants who want to strengthen their personal statements, CVs, and overall application strategy over time/ those who benefit from consistent guidance, accountability, and the chance to reflect and improve on their application with every session.
+
+| Package | Best For | Price | Validity |
+|----------|----------|----------|----------|
+| Lab Pass | Ongoing, structured mentorship and consistent support across the entire application journey | £75/month | 2 sessions/month, Minimum 3-month subscription |
+
+<br>
+<h2><span class="gradient-text">2. Lab Focus (Flexible Pay-As-You-Go Sessions)</span></h2>
+Perfect for students who need targeted advice, quick feedback, or focused support on specific parts of their application. Whether you're finalising a personal statement, preparing for an interview, unsure about university choices, or just need a bit of direction and clarity, Lab Focus is designed to give you that timely push, without committing to long-term mentorship.
+
+| Package | Best For | Price | Validity |
+|----------|----------|----------|----------|
+| 1 session | One-off / Last-minute queries / Targeted advice | £49.99 | 30 days |
+| 2 sessions | Application review / Mock interview | £99.99 | 60 days |
+| 4 sessions | Support across key stages / Document reviews | £189.99 | 120 days |
+| 6 sessions | End-to-end support / Priority feedback | £279.99 | 180 days |
+
+<br>
+<h2><span class="gradient-text">3. Document Review (Written Feedback Only)</span></h2>
+Ideal for students who are looking for detailed written feedback on their application materials without booking a live session. Whether it’s your CV, personal statement, research proposal, or scholarship letter, a mentor will provide line-by-line comments, structural suggestions, and content-level guidance to help you strengthen your documents before submission.
+
+| Package | Price | Details |
+|----------|----------|----------|
+| CV + SOP / Personal Essay / Short Questions | £45  |  Detailed written feedback on both documents |
+| CV + SOP + Scholarship Essay | £70 | Comprehensive review of all three documents |
+| Research Proposals | Custom | Pricing based on length of proposal and depth of review required |
+
+<br>
+
+## How to get started
+1. Fill out our **[Mentee Interest Form](https://docs.google.com/forms/d/11FF1D4aMOb4vNw7NrIOIzaA754jclf0YOqk0G2i2n9Q/viewform?edit_requested=true#responses)**
+2. Receive a tailored plan and mentor match.
+3. Schedule and attend sessions online.
+
+<br>
+
+## Mentor Network
+We currently work with over 25+ mentors from diverse academic backgrounds and geographies. All mentors are selected not only for their expertise but also for their commitment to the values of the Application Lab: access, empathy, and clarity.
+
+Each mentor undergoes basic training and adheres to our ethical guidelines. Mentors are matched with students based on academic discipline, region/university of interest, and mentorship goals. We are building a pay-it-forward model where past mentees who successfully secure offers return to mentor future applicants, creating a self-sustaining and dynamic community.
+
+

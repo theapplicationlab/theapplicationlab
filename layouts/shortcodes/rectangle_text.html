@@ -1,0 +1,40 @@
+{{ $title := .Get "title" }}
+{{ $description := .Get "description" }}
+{{ $image_path := .Get "image" }}
+{{ $alt_text := .Get "alt_text" | default $title }}
+{{ $layout_class := .Get "layout_class" | default "" }}
+
+
+<div class="journey-ribbon-card {{ $layout_class }} my-12">
+    <div class="journey-ribbon-image-container">
+        {{ if $image_path }}
+            {{ $img_resource := "" }}
+            {{ $processed_img := "" }}
+            {{ if .Page.Resources.GetMatch $image_path }}
+                {{ $img_resource = .Page.Resources.GetMatch $image_path }}
+            {{ else }}
+                {{ $img_resource = resources.Get $image_path }}
+            {{ end }}
+
+            {{ if $img_resource }}
+                {{ $processed_img = $img_resource.Fill "250x250 Lanczos" }}
+            {{ end }}
+
+            {{ if $processed_img }}
+                <img src="{{ $processed_img.RelPermalink }}" alt="{{ $alt_text }}" class="journey-ribbon-image">
+            {{ else if fileExists (printf "static%s" $image_path) }}
+                 <img src="{{ $image_path | relURL }}" alt="{{ $alt_text }}" class="journey-ribbon-image" style="width: 250px; height: 250px; object-fit: cover;">
+            {{ else }}
+                <div class="journey-ribbon-image bg-gray-200 dark:bg-darkmode-theme-dark flex items-center justify-center text-gray-500" style="width: 250px; height: 250px;">Image '{{ $image_path }}' not found</div>
+            {{ end }}
+        {{ else }}
+            <div class="journey-ribbon-image bg-gray-200 dark:bg-darkmode-theme-dark flex items-center justify-center text-gray-500" style="width: 250px; height: 250px;">No Image Provided</div>
+        {{ end }}
+    </div>
+    <div class="journey-ribbon-content">
+        <h3 class="journey-ribbon-title">{{ $title }}</h3>
+        <div class="journey-ribbon-description">
+            {{ $description | markdownify }}
+        </div>
+    </div>
+</div>

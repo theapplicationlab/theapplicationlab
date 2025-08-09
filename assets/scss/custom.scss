@@ -1,0 +1,217 @@
+:root {
+  --color-primary-new: #306099;
+  --color-secondary-new:#5564a6 ;
+  --color-accent-new: #759ddb;
+  --color-text-new: #1f2937;
+  --color-text-muted-new: #4b5563;
+  --color-background-new: #f9fafb;
+  --color-card-bg-new: #ffffff;
+  --shadow-lg-new: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  --shadow-md-new: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+.text-custom-blue {
+  color: #306099;
+}
+
+.text-custom-blue-light {
+  color: #759ddb;
+}
+
+.nav-dropdown.active .nav-dropdown-list {
+  @apply lg:bg-white dark:lg:bg-darkmode-theme-dark;
+}
+.nav-dropdown-list {
+  @apply lg:bg-white dark:lg:bg-darkmode-theme-dark;
+}
+
+.faq-entry h3 {
+  font-size: 1.125rem; /* Tailwind's text-lg */
+  margin-bottom: 0.25rem;
+}
+
+.faq-entry p {
+  font-size: 0.875rem; /* Tailwind's text-sm */
+  margin-bottom: 1rem;
+}
+
+.faq-entry {
+  margin-bottom: 1.25rem; /* spacing between Q&A blocks */
+}
+
+div.chart {
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1rem;
+  overflow-x: auto;
+
+  svg {
+    display: inherit;
+  }
+}
+
+html, body {
+  scroll-padding-top: 120px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+section.section-sm.hero {
+  padding-top: 2em !important;
+}
+
+.content :where(blockquote p:first-of-type):not(:where([class~="not-prose"], [class~="not-prose"] *))::before {
+  content: none;
+}
+
+.bg-theme-light {
+  --tw-bg-opacity: 1;
+  background-color: #ffffff;
+}
+
+.toc {
+  position: sticky;
+  top: 7rem;
+  align-self: start;
+}
+
+#tableOfContentContainer {
+  max-height: 65vh;
+  overflow-y: auto;
+}
+
+nav#TableOfContents {
+  background-color: transparent !important;
+}
+
+.content img {
+  margin-bottom: 0;
+}
+
+.nav-dropdown-list {
+  min-width: 300px;
+  border-radius: 10px;
+}
+
+code {
+  color: #cdf3f5;
+  overflow-x: auto;
+  white-space: pre-wrap;
+}
+
+.gslider img {
+  background: #fbfbfb;
+  padding: 20px;
+}
+
+.gdesc-inner {
+  background: #474747;
+  text-align: center;
+  font-size: 1.2em;
+  font-weight: 400;
+}
+
+.content :is(:where(pre):not(:where([class~="not-prose"], [class~="not-prose"] *))) {
+  background-color: #000 !important;
+  border-radius: 12px;
+}
+
+.content :is(:where(pre):not(:where([class~="not-prose"], [class~="not-prose"] *))) code {
+  color: #cdf3f5;
+  background-color: transparent;
+}
+
+.share-link {
+  margin: 10px;
+  font-size: 1.2em;
+}
+
+.dark {
+  code {
+    color: #cdf3f5;
+    background-color: #000;
+  }
+
+  .content {
+    --tw-prose-bullets: #FFF !important;
+    --tw-prose-body: #FFF;
+  }
+
+  .nav-dropdown-list {
+    background: #000 !important;
+  }
+}
+
+
+.content-panel {
+  @apply bg-theme-light dark:bg-darkmode-theme-light rounded-lg shadow-md;
+}
+
+.support-badge {
+  @apply bg-blue-100 text-blue-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded-full dark:bg-blue-900 dark:text-blue-300 border border-blue-400;
+}
+
+.meta-icon-img {
+  @apply inline h-[30px];
+}
+
+.author-card-compact {
+  @apply bg-theme-light dark:bg-darkmode-theme-light rounded-lg p-4 text-center shadow;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100%;
+}
+
+.author-card-compact .image-80 {
+  width: 80px;
+  height: 80px;
+}
+
+.author-card-compact .image-100 {
+  width: 100px;
+  height: 100px;
+}
+
+.software-hacking-hours-promo {
+  .past-event-promo {
+    .flex {
+      img {
+        flex-shrink: 0;
+      }
+    }
+  }
+}
+
+.section-title {
+  @apply text-center mb-4;
+}
+
+.section-subtitle {
+  @apply text-center text-lg text-gray-600 dark:text-gray-400 mb-12 mx-auto;
+}
+
+.details-shortcode > summary .details-marker {
+  transition: transform 0.2s ease-in-out;
+}
+
+.details-shortcode[open] > summary .details-marker {
+  transform: rotate(90deg);
+}
+
+.copy-code-button {
+  @apply absolute top-2 right-2 p-1.5 rounded-md bg-gray-700/50 text-gray-300;
+  @apply opacity-0 group-hover:opacity-100 transition-opacity duration-200;
+}
+
+.copy-code-button:hover {
+  @apply bg-gray-600 text-white;
+}
+
+.copy-code-button.copied {
+  @apply bg-green-600/80 text-white;
+}

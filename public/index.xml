@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>The Application Lab</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on The Application Lab</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 15 Aug 2025 00:00:00 +0100</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" /><item>
+      <title>This is a test blog post</title>
+      <link>http://localhost:1313/blog/this-is-a-test-blog-post-1/</link>
+      <pubDate>Fri, 11 Jul 2025 00:00:00 +0100</pubDate>
+      <guid>http://localhost:1313/blog/this-is-a-test-blog-post-1/</guid>
+      <description>&lt;![CDATA[Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ]]></description>
+    </item><item>
+      <title>This is a test blog post two</title>
+      <link>http://localhost:1313/blog/this-is-a-test-blog-post-2/</link>
+      <pubDate>Sun, 06 Jul 2025 00:00:00 +0100</pubDate>
+      <guid>http://localhost:1313/blog/this-is-a-test-blog-post-2/</guid>
+      <description>&lt;![CDATA[Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ]]></description>
+    </item><item>
+      <title>This is a test workshop five</title>
+      <link>http://localhost:1313/workshops/this-is-a-workshop-test-five/</link>
+      <pubDate>Sat, 05 Jul 2025 00:00:00 +0100</pubDate>
+      <guid>http://localhost:1313/workshops/this-is-a-workshop-test-five/</guid>
+      <description>&lt;![CDATA[Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.]]></description>
+    </item><item>
+      <title>This is a test blog post three</title>
+      <link>http://localhost:1313/blog/this-is-a-test-blog-post-3/</link>
+      <pubDate>Fri, 04 Jul 2025 00:00:00 +0100</pubDate>
+      <guid>http://localhost:1313/blog/this-is-a-test-blog-post-3/</guid>
+      <description>&lt;![CDATA[Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ]]></description>
+    </item><item>
+      <title>This is a test blog post four</title>
+      <link>http://localhost:1313/blog/this-is-a-test-blog-post-4/</link>
+      <pubDate>Tue, 24 Jun 2025 00:00:00 +0100</pubDate>
+      <guid>http://localhost:1313/blog/this-is-a-test-blog-post-4/</guid>
+      <description>&lt;![CDATA[Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ]]></description>
+    </item><item>
+      <title>This is a test blog post five</title>
+      <link>http://localhost:1313/blog/this-is-a-test-blog-post-5/</link>
+      <pubDate>Thu, 12 Jun 2025 00:00:00 +0100</pubDate>
+      <guid>http://localhost:1313/blog/this-is-a-test-blog-post-5/</guid>
+      <description>&lt;![CDATA[Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ]]></description>
+    </item><item>
+      <title>This is a test workshop four</title>
+      <link>http://localhost:1313/workshops/this-is-a-workshop-test-four/</link>
+      <pubDate>Mon, 05 May 2025 00:00:00 +0100</pubDate>
+      <guid>http://localhost:1313/workshops/this-is-a-workshop-test-four/</guid>
+      <description>&lt;![CDATA[Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.]]></description>
+    </item><item>
+      <title>This is a test blog post six</title>
+      <link>http://localhost:1313/blog/this-is-a-test-blog-post-6/</link>
+      <pubDate>Sat, 12 Apr 2025 00:00:00 +0100</pubDate>
+      <guid>http://localhost:1313/blog/this-is-a-test-blog-post-6/</guid>
+      <description>&lt;![CDATA[Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ]]></description>
+    </item><item>
+      <title>This is a test workshop three</title>
+      <link>http://localhost:1313/workshops/this-is-a-workshop-test-three/</link>
+      <pubDate>Sat, 12 Apr 2025 00:00:00 +0100</pubDate>
+      <guid>http://localhost:1313/workshops/this-is-a-workshop-test-three/</guid>
+      <description>&lt;![CDATA[Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.]]></description>
+    </item><item>
+      <title>This is a test workshop two</title>
+      <link>http://localhost:1313/workshops/this-is-a-workshop-test-two/</link>
+      <pubDate>Wed, 05 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/workshops/this-is-a-workshop-test-two/</guid>
+      <description>&lt;![CDATA[Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.]]></description>
+    </item><item>
+      <title>This is a test workshop one</title>
+      <link>http://localhost:1313/workshops/this-is-a-workshop-test-one/</link>
+      <pubDate>Tue, 05 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/workshops/this-is-a-workshop-test-one/</guid>
+      <description>&lt;![CDATA[Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.]]></description>
+    </item></channel>
+</rss>

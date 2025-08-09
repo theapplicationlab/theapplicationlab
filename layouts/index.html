@@ -1,0 +1,166 @@
+{{ define "main" }}
+  {{/* New Hero Section from Mockup */}}
+  <section class="hero-section py-20 md:py-32 bg-gray-50 dark:bg-darkmode-theme-dark">
+    <div class="container mx-auto px-6 text-center">
+      <h1 class="text-4xl md:text-6xl font-extrabold mb-6 text-text dark:text-darkmode-text">
+        Real <span class="gradient-text">Guidance. </span>Shared Journey.
+      </h1>
+      <p class="text-lg md:text-xl text-gray-600 dark:text-gray-400 mb-10 max-w-3xl mx-auto">
+        Empowering underrepresented students to win international university places through peer mentorship.
+      </p>
+      <div class="flex flex-wrap justify-center gap-4">
+        <a href="{{ "work-with-us/" | relLangURL }}" class="btn btn-new-outline text-lg">Get Involved</a>
+        <a href="{{ "mentorship/" | relLangURL }}" class="btn btn-new-primary text-lg">Apply for Mentorship</a>
+        <a href="{{ "resources/" | relLangURL }}" class="btn btn-new-outline text-lg">Explore Resources</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section pt-7 pb-1">
+    <div class="container">
+      <div class="row justify-center">
+        <div class="lg:col-10">
+          <div class="content">
+            {{ .Content }}
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  {{ $sortedAllUpcomingEvents := partial "logic/get_sorted_upcoming_events.html" . }}
+
+  {{/* What's New at ONM Section */}}
+  <section class="mt-1 mb-14">
+    <div class="container mx-auto px-6">
+      <h2 class="section-title">What's New at Application Lab</h2>
+      <p class="section-subtitle">Stay up-to-date with the latest workshops, blog posts, and community highlights.</p>
+      <div class="grid md:grid-cols-1 lg:grid-cols-3 gap-8">
+
+        {{/* Upcoming Events Column - Updated Logic */}}
+        <div class="lg:col-span-1">
+          <h3 class="text-2xl font-bold mb-6 text-center lg:text-left text-text dark:text-darkmode-text">Upcoming Events</h3>
+          {{ if $sortedAllUpcomingEvents }}
+            {{ range first 3 $sortedAllUpcomingEvents }}
+              <div class="event-card-simple bg-white dark:bg-darkmode-theme-light rounded-xl p-4 shadow-md hover:shadow-lg transition-all duration-300 ease-in-out mb-4">
+                <span class="date-badge mb-2 inline-block text-xs">{{ .Date.Format "Jan 02, 2006" }}</span>
+                <h4 class="text-lg font-semibold mb-1">
+                  <a href="{{ .Permalink }}" class="text-text dark:text-darkmode-dark hover:text-[var(--color-primary-new)]">{{ .Title }}</a>
+                </h4>
+                <p class="text-xs text-gray-600 dark:text-gray-400 mb-2">
+                  {{ .Description | truncate 80 }}
+                </p>
+                <p class="text-xs text-gray-500 dark:text-gray-300">
+                  {{ partial "icon.html" (dict "style" "regular" "name" "clock" "class" "mr-1") }} {{ .StartTime }} - {{ .EndTime }} {{ .TimeZone }}
+                  {{ if .IsRecurring }}
+                    <br/>{{ partial "icon.html" (dict "style" "solid" "name" "location-dot" "class" "mr-1") }} <a href="{{ .LocationURL }}" target="_blank" class="hover:underline">{{ .LocationName }}</a> (Recurring)
+                  {{ else if .Authors }}
+                    <br/>{{ partial "icon.html" (dict "style" "regular" "name" "circle-user" "class" "mr-1") }}
+                    {{ $numAuthors := len .Authors }}
+                    {{ range $i, $authorName := .Authors }}
+                        {{ $nameForProcessing := $authorName | replaceRE "[.]" "" }}
+                        {{ $nameForProcessing = $nameForProcessing | replaceRE "ć" "c" | replaceRE "Ć" "C" }}
+                        {{ $contributorSlug := $nameForProcessing | anchorize }}
+                        {{ $contributorPagePath := printf "contributors/%s" $contributorSlug }}
+                        {{ $contributorPage := site.GetPage $contributorPagePath }}
+                        {{ if $contributorPage }}<a href="{{ $contributorPage.RelPermalink }}">{{ $authorName }}</a>{{ else }}{{ $authorName }}{{ end }}{{ if lt $i (sub $numAuthors 1) }}, {{ end }}
+                    {{ end }}
+                  {{ end }}
+                </p>
+                <a href="{{ .Permalink }}" class="font-semibold text-xs text-[var(--color-primary-new)] hover:underline block mt-2">
+                  View Details {{ partial "icon.html" (dict "style" "solid" "name" "arrow-right" "class" "ml-1") }}
+                </a>
+              </div>
+            {{ end }}
+             {{ if gt (len $sortedAllUpcomingEvents) 3 }}
+                <div class="text-center lg:text-left mt-4">
+                    <a href="{{ "workshops/" | relLangURL }}" class="btn btn-sm btn-new-outline">More Events...</a>
+                </div>
+            {{ end }}
+          {{ else }}
+            <div class="event-card-simple bg-white dark:bg-darkmode-theme-light rounded-xl p-6 shadow-md">
+               <p class="text-gray-600 dark:text-gray-400">No upcoming events scheduled at the moment. Check back soon!</p>
+            </div>
+          {{ end }}
+        </div>
+
+        {{/* Latest Blog Posts Column */}}
+        <div class="lg:col-span-2">
+          <h3 class="text-2xl font-bold mb-6 text-center lg:text-left text-text dark:text-darkmode-text">Recent Blog Posts</h3>
+          <div class="space-y-6">
+            {{ $recentBlogPosts := first 3 (where site.RegularPages.ByDate.Reverse "Section" "blog") }}
+            {{ range $recentBlogPosts }}
+            <article class="news-card">
+              <h4 class="text-xl font-semibold mb-1">
+                <a href="{{ .RelPermalink }}" class="text-text dark:text-darkmode-dark hover:text-[var(--color-primary-new)]">{{ .Title }}</a>
+              </h4>
+              <ul class="news-meta text-xs text-gray-500 dark:text-gray-400 mb-2 flex flex-wrap items-center leading-tight">
+                <li class="mr-3 flex items-center">
+                  {{ partial "icon.html" (dict "style" "regular" "name" "calendar" "class" "mr-1.5") }}
+                  <span>{{ .Date.Format "January 2, 2006" }}</span>
+                </li>
+                {{ if .Params.author }}
+                <li class="flex items-center">
+                  {{ partial "icon.html" (dict "style" "regular" "name" "circle-user" "class" "mr-1.5") }}
+                  <span>By {{ partial "components/author-links.html" . }}</span>
+                </li>
+                {{ end }}
+              </ul>
+              <p class="news-summary">{{ .Description | truncate 120 }}</p>
+            </article>
+            {{ else }}
+             <div class="news-card">
+                <p class="text-gray-600 dark:text-gray-400">No recent blog posts. Stay tuned for new content!</p>
+             </div>
+            {{ end }}
+          </div>
+          <div class="text-center lg:text-right mt-8">
+            <a href="{{ "blog/" | relLangURL }}" class="btn btn-new-primary">Explore All Posts</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  
+
+{{/*  NEW Ways to Get Involved Section
+<section class="section pt-8">
+  <div class="container">
+    <h2 class="section-title">Ways to Get Involved</h2>
+    <p class="section-subtitle">
+      Whether you want to help, build, or share, there's a place for you in the Application Lab community.
+    </p>
+
+    {{ $involvement_pathways := slice
+      (dict
+        "title" "Learn & Discuss"
+        "description" "Whether you want to help, build, or share, there's a place for you in the Application Lab community. Whether you want to help, build, or share, there's a place for you in the Application Lab community."
+        "icon" "fas fa-comments"
+        "link" "/getting-involved/"
+      )
+      (dict
+        "title" "Contribute"
+        "description" "Whether you want to help, build, or share, there's a place for you in the Application Lab community. Whether you want to help, build, or share, there's a place for you in the Application Lab community."
+        "icon" "fas fa-code-branch"
+        "link" "/getting-involved/"
+      )
+      (dict
+        "title" "Share & Present"
+        "description" "Share your expertise by writing a blog post or taking part in a workshop and help contribute to our collective knowledge base."
+        "icon" "fas fa-chalkboard-user"
+        "link" "/getting-involved/"
+      )
+    }}
+
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+      {{ range $involvement_pathways }}
+        <div>
+          {{ partial "components/involvement-card.html" . }}
+        </div>
+      {{ end }}
+    </div>
+  </div>
+</section>  */}}
+
+{{ end }}

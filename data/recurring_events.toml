@@ -1,0 +1,15 @@
+[[events]]
+id = "lab-clinic-hours" # Unique ID for this recurring event type
+title = ""
+host = ""
+description = """
+"""
+day_of_week = "Monday" # Case-sensitive, full day name
+start_time = "16:00"   # 24-hour format HH:MM
+end_time = "18:00"     # 24-hour format HH:MM
+time_zone = "BST"      # Or "CEST" as appropriate. Be mindful of DST.
+location_name = "YouTube Live Stream" # Name of the location
+location_url = "https://youtube.com/theapplicationlab"
+details_page_link = "" 
+active = false      # If false, this event won't be shown as upcoming
+image = "" 

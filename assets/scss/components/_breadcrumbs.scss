@@ -1,0 +1,8 @@
+// Breadcrumb specific styling
+// This file can now be simplified as the core styling is handled by the main stylesheet.
+// We just need to ensure the parent <a> doesn't get an underline itself.
+a.breadcrumb-link-parent {
+  text-decoration-line: none !important;
+}
+
+// The .breadcrumb-link-text will be automatically styled by the rules in _typography-custom.scss

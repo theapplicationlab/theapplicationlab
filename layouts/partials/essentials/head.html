@@ -1,0 +1,77 @@
+<meta charset="utf-8" />
+{{ $title := "" }}
+{{ if .IsHome }}
+  {{ $title = "The Application Lab" }}
+{{ else }}
+  {{ $title = printf "%s - %s" .Page.Title "The Application Lab" }}
+{{ end }}
+
+
+<title>{{ $title }}</title>
+
+<meta
+  name="viewport"
+  content="width=device-width, initial-scale=1, maximum-scale=5" />
+
+<link rel="canonical" href="{{ .Permalink }}" />
+
+{{- /* RSS Discovery Links - Single Best Feed Strategy */ -}}
+{{- $feed := "" -}}
+{{- $feedTitle := "" -}}
+{{- $feedProviderPage := "" -}}
+
+{{- /* Determine the page that provides the feed (either the section page or the home page) */ -}}
+{{- if .IsPage -}}
+{{- $feedProviderPage = .Parent -}}
+{{- else if .IsSection -}}
+{{- $feedProviderPage = . -}}
+{{- else if .IsHome -}}
+{{- $feedProviderPage = . -}}
+{{- end -}}
+
+{{- /* Check if the identified provider page has an RSS feed and it's not the homepage (unless we are on the homepage) */ -}}
+{{- if and $feedProviderPage ($feedProviderPage.OutputFormats.Get "rss") -}}
+{{- $homeFeedPermalink := (site.Home.OutputFormats.Get "rss").Permalink -}}
+{{- $specificFeed := $feedProviderPage.OutputFormats.Get "rss" -}}
+{{- if or (ne $specificFeed.Permalink $homeFeedPermalink) .IsHome -}}
+{{- $feed = $specificFeed -}}
+{{- $feedTitle = printf "%s | %s" $feedProviderPage.Title "The Application Lab" -}}
+{{- end -}}
+{{- end -}}
+
+{{- /* Fallback to the homepage feed if no specific feed was found */ -}}
+{{- if not $feed -}}
+{{- with site.Home.OutputFormats.Get "rss" -}}
+{{- $feed = . -}}
+{{- $feedTitle = "The Application Lab | RSS Feed" -}}
+{{- end -}}
+{{- end -}}
+
+{{- /* Render the single link tag */ -}}
+{{- with $feed -}}
+<link rel="alternate" type="application/rss+xml" title="{{ $feedTitle }}" href="{{ .Permalink }}">
+{{- end -}}
+
+
+<!-- favicon -->
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+
+<!-- opengraph and twitter card -->
+{{ partial "components/base-seo.html" . }}
+
+{{ if hugo.IsProduction }}
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-WLX91Y92H4"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-WLX91Y92H4');
+</script>
+{{ end }}
+
+{{ if .Params.math }}
+{{ partial "helpers/katex.html" . }}
+{{ end }}

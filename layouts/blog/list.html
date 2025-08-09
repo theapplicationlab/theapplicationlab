@@ -1,0 +1,34 @@
+{{ define "main" }}
+  {{ partial "page-header" . }}
+
+
+  <section class="section pt-6">
+    <div class="container">
+      <div class="row gx-5">
+        <!-- blog posts -->
+        <div class="lg:col-12">
+          <div class="row">
+            {{ $paginator:= .Paginate .RegularPages }}
+            {{ range $paginator.Pages }}
+              <div class="md:col-12 lg:col-4 mb-14">
+                {{ partial "components/blog-card" . }}
+              </div>
+            {{ end }}
+          </div>
+          {{ partial "components/pagination.html" . }}
+          
+          <div class="mt-16">
+            {{ partial "components/content-contribute-cta.html" (dict
+              "icon" "solid pen-to-square"
+              "title" "Have an idea? <span class=\"gradient-text\">Share your voice.</span>"
+              "description" "The Application Lab is a community-driven platform. We invite you to share your expertise, tutorials, or insights by writing a blog post."
+              "link" "/work-with-us/"
+              "link_text" "Write for Our Blog"
+            ) }}
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+{{ end }}

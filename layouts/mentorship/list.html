@@ -1,0 +1,21 @@
+{{ define "main" }}
+  {{ partial "page-header" . }}
+  <section class="section pt-7">
+    <div class="container">
+      <div class="row justify-center">
+        <div class="lg:col-10">
+          <div class="content">
+            {{ .Content }}
+          </div>
+          <div class="mt-16">
+            {{ partial "components/content-contribute-cta.html" (dict
+              "icon" "solid graduation-cap"
+              "title" "Interested? Fill out our <a href=\"https://docs.google.com/forms/d/11FF1D4aMOb4vNw7NrIOIzaA754jclf0YOqk0G2i2n9Q/viewform?edit_requested=true#responses\" class=\"gradient-text\" target=\"_blank\" rel=\"noopener\">Mentee Interest Form</a> and we'll get back to you shortly!"
+              "description" " "
+            ) }}
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+{{ end }}

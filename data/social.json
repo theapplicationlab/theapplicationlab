@@ -1,0 +1,29 @@
+{
+  "main": [
+    {
+      "name": "whatsapp",
+      "icon": "fab fa-whatsapp",
+      "link": "https://chat.whatsapp.com/JgONfqufJQlKl53XPAddIM?mode=ac_t"
+    },
+    {
+      "name": "github",
+      "icon": "fab fa-github",
+      "link": "https://github.com/theapplicationlab"
+    },
+    {
+      "name": "x-twitter",
+      "icon": "fab fa-x-twitter",
+      "link": "https://x.com/TheApplicationLab"
+    },
+    {
+      "name": "linkedin",
+      "icon": "fab fa-linkedin",
+      "link": "https://www.linkedin.com/company/theapplicationlab"
+    },
+    {
+      "name": "youtube",
+      "icon": "fab fa-youtube",
+      "link": "https://www.youtube.com/@theapplicationlab"
+    }
+  ]
+}
