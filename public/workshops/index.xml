@@ -2,52 +2,52 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>The Application Lab Workshops on The Application Lab</title>
-    <link>http://localhost:1313/workshops/</link>
+    <link>http://localhost:1313/theapplicationlab/workshops/</link>
     <description>Recent content in The Application Lab Workshops on The Application Lab</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Fri, 15 Aug 2025 00:00:00 +0100</lastBuildDate>
-    <atom:link href="http://localhost:1313/workshops/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/theapplicationlab/workshops/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>This is a test workshop six</title>
-      <link>http://localhost:1313/workshops/this-is-a-workshop-test-six/</link>
+      <link>http://localhost:1313/theapplicationlab/workshops/this-is-a-workshop-test-six/</link>
       <pubDate>Fri, 15 Aug 2025 00:00:00 +0100</pubDate>
-      <guid>http://localhost:1313/workshops/this-is-a-workshop-test-six/</guid>
+      <guid>http://localhost:1313/theapplicationlab/workshops/this-is-a-workshop-test-six/</guid>
       <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&lt;/p&gt;</description>
     </item>
     <item>
       <title>This is a test workshop five</title>
-      <link>http://localhost:1313/workshops/this-is-a-workshop-test-five/</link>
+      <link>http://localhost:1313/theapplicationlab/workshops/this-is-a-workshop-test-five/</link>
       <pubDate>Sat, 05 Jul 2025 00:00:00 +0100</pubDate>
-      <guid>http://localhost:1313/workshops/this-is-a-workshop-test-five/</guid>
+      <guid>http://localhost:1313/theapplicationlab/workshops/this-is-a-workshop-test-five/</guid>
       <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&lt;/p&gt;</description>
     </item>
     <item>
       <title>This is a test workshop four</title>
-      <link>http://localhost:1313/workshops/this-is-a-workshop-test-four/</link>
+      <link>http://localhost:1313/theapplicationlab/workshops/this-is-a-workshop-test-four/</link>
       <pubDate>Mon, 05 May 2025 00:00:00 +0100</pubDate>
-      <guid>http://localhost:1313/workshops/this-is-a-workshop-test-four/</guid>
+      <guid>http://localhost:1313/theapplicationlab/workshops/this-is-a-workshop-test-four/</guid>
       <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&lt;/p&gt;</description>
     </item>
     <item>
       <title>This is a test workshop three</title>
-      <link>http://localhost:1313/workshops/this-is-a-workshop-test-three/</link>
+      <link>http://localhost:1313/theapplicationlab/workshops/this-is-a-workshop-test-three/</link>
       <pubDate>Sat, 12 Apr 2025 00:00:00 +0100</pubDate>
-      <guid>http://localhost:1313/workshops/this-is-a-workshop-test-three/</guid>
+      <guid>http://localhost:1313/theapplicationlab/workshops/this-is-a-workshop-test-three/</guid>
       <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&lt;/p&gt;</description>
     </item>
     <item>
       <title>This is a test workshop two</title>
-      <link>http://localhost:1313/workshops/this-is-a-workshop-test-two/</link>
+      <link>http://localhost:1313/theapplicationlab/workshops/this-is-a-workshop-test-two/</link>
       <pubDate>Wed, 05 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/workshops/this-is-a-workshop-test-two/</guid>
+      <guid>http://localhost:1313/theapplicationlab/workshops/this-is-a-workshop-test-two/</guid>
       <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&lt;/p&gt;</description>
     </item>
     <item>
       <title>This is a test workshop one</title>
-      <link>http://localhost:1313/workshops/this-is-a-workshop-test-one/</link>
+      <link>http://localhost:1313/theapplicationlab/workshops/this-is-a-workshop-test-one/</link>
       <pubDate>Tue, 05 Mar 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/workshops/this-is-a-workshop-test-one/</guid>
+      <guid>http://localhost:1313/theapplicationlab/workshops/this-is-a-workshop-test-one/</guid>
       <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&lt;/p&gt;</description>
     </item>
   </channel>

@@ -1,47 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:video="http://www.google.com/schemas/sitemap-video/1.1"><url>
-    <loc>http://localhost:1313/workshops/this-is-a-workshop-test-five/</loc>
+    <loc>http://localhost:1313/theapplicationlab/workshops/this-is-a-workshop-test-five/</loc>
     <video:video>
-      <video:thumbnail_loc>http://localhost:1313/workshops/this-is-a-workshop-test-five/this-is-a-workshop-test-five-og-16x9.jpg</video:thumbnail_loc>
+      <video:thumbnail_loc>http://localhost:1313/theapplicationlab/workshops/this-is-a-workshop-test-five/this-is-a-workshop-test-five-og-16x9.jpg</video:thumbnail_loc>
       <video:title>This is a test workshop five</video:title>
       <video:description>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</video:description>
-      <video:player_loc>https://www.youtube.com/embed/3mUzCwX4lYE</video:player_loc><video:publication_date>2025-07-05T00:00:00&#43;01:00</video:publication_date><video:uploader info="http://localhost:1313/">The Application Lab</video:uploader>
+      <video:player_loc>https://www.youtube.com/embed/3mUzCwX4lYE</video:player_loc><video:publication_date>2025-07-05T00:00:00&#43;01:00</video:publication_date><video:uploader info="http://localhost:1313/theapplicationlab/">The Application Lab</video:uploader>
       <video:live>no</video:live>
     </video:video>
   </url><url>
-    <loc>http://localhost:1313/workshops/this-is-a-workshop-test-four/</loc>
+    <loc>http://localhost:1313/theapplicationlab/workshops/this-is-a-workshop-test-four/</loc>
     <video:video>
-      <video:thumbnail_loc>http://localhost:1313/workshops/this-is-a-workshop-test-four/this-is-a-workshop-test-four-og-16x9.jpg</video:thumbnail_loc>
+      <video:thumbnail_loc>http://localhost:1313/theapplicationlab/workshops/this-is-a-workshop-test-four/this-is-a-workshop-test-four-og-16x9.jpg</video:thumbnail_loc>
       <video:title>This is a test workshop four</video:title>
       <video:description>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</video:description>
-      <video:player_loc>https://www.youtube.com/embed/3mUzCwX4lYE</video:player_loc><video:publication_date>2025-05-05T00:00:00&#43;01:00</video:publication_date><video:uploader info="http://localhost:1313/">The Application Lab</video:uploader>
+      <video:player_loc>https://www.youtube.com/embed/3mUzCwX4lYE</video:player_loc><video:publication_date>2025-05-05T00:00:00&#43;01:00</video:publication_date><video:uploader info="http://localhost:1313/theapplicationlab/">The Application Lab</video:uploader>
       <video:live>no</video:live>
     </video:video>
   </url><url>
-    <loc>http://localhost:1313/workshops/this-is-a-workshop-test-three/</loc>
+    <loc>http://localhost:1313/theapplicationlab/workshops/this-is-a-workshop-test-three/</loc>
     <video:video>
-      <video:thumbnail_loc>http://localhost:1313/workshops/this-is-a-workshop-test-three/this-is-a-workshop-test-three-og-16x9.jpg</video:thumbnail_loc>
+      <video:thumbnail_loc>http://localhost:1313/theapplicationlab/workshops/this-is-a-workshop-test-three/this-is-a-workshop-test-three-og-16x9.jpg</video:thumbnail_loc>
       <video:title>This is a test workshop three</video:title>
       <video:description>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</video:description>
-      <video:player_loc>https://www.youtube.com/embed/3mUzCwX4lYE</video:player_loc><video:publication_date>2025-04-12T00:00:00&#43;01:00</video:publication_date><video:uploader info="http://localhost:1313/">The Application Lab</video:uploader>
+      <video:player_loc>https://www.youtube.com/embed/3mUzCwX4lYE</video:player_loc><video:publication_date>2025-04-12T00:00:00&#43;01:00</video:publication_date><video:uploader info="http://localhost:1313/theapplicationlab/">The Application Lab</video:uploader>
       <video:live>no</video:live>
     </video:video>
   </url><url>
-    <loc>http://localhost:1313/workshops/this-is-a-workshop-test-two/</loc>
+    <loc>http://localhost:1313/theapplicationlab/workshops/this-is-a-workshop-test-two/</loc>
     <video:video>
-      <video:thumbnail_loc>http://localhost:1313/workshops/this-is-a-workshop-test-two/this-is-a-workshop-test-two-og-16x9.jpg</video:thumbnail_loc>
+      <video:thumbnail_loc>http://localhost:1313/theapplicationlab/workshops/this-is-a-workshop-test-two/this-is-a-workshop-test-two-og-16x9.jpg</video:thumbnail_loc>
       <video:title>This is a test workshop two</video:title>
       <video:description>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</video:description>
-      <video:player_loc>https://www.youtube.com/embed/3mUzCwX4lYE</video:player_loc><video:publication_date>2025-03-05T00:00:00&#43;00:00</video:publication_date><video:uploader info="http://localhost:1313/">The Application Lab</video:uploader>
+      <video:player_loc>https://www.youtube.com/embed/3mUzCwX4lYE</video:player_loc><video:publication_date>2025-03-05T00:00:00&#43;00:00</video:publication_date><video:uploader info="http://localhost:1313/theapplicationlab/">The Application Lab</video:uploader>
       <video:live>no</video:live>
     </video:video>
   </url><url>
-    <loc>http://localhost:1313/workshops/this-is-a-workshop-test-one/</loc>
+    <loc>http://localhost:1313/theapplicationlab/workshops/this-is-a-workshop-test-one/</loc>
     <video:video>
-      <video:thumbnail_loc>http://localhost:1313/workshops/this-is-a-workshop-test-one/this-is-a-workshop-test-one-og-16x9.jpg</video:thumbnail_loc>
+      <video:thumbnail_loc>http://localhost:1313/theapplicationlab/workshops/this-is-a-workshop-test-one/this-is-a-workshop-test-one-og-16x9.jpg</video:thumbnail_loc>
       <video:title>This is a test workshop one</video:title>
       <video:description>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</video:description>
-      <video:player_loc>https://www.youtube.com/embed/3mUzCwX4lYE</video:player_loc><video:publication_date>2024-03-05T00:00:00&#43;00:00</video:publication_date><video:uploader info="http://localhost:1313/">The Application Lab</video:uploader>
+      <video:player_loc>https://www.youtube.com/embed/3mUzCwX4lYE</video:player_loc><video:publication_date>2024-03-05T00:00:00&#43;00:00</video:publication_date><video:uploader info="http://localhost:1313/theapplicationlab/">The Application Lab</video:uploader>
       <video:live>no</video:live>
     </video:video>
   </url></urlset>
