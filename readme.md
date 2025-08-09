@@ -44,4 +44,4 @@ The website's theme and code are licensed under the MIT License. See the License
 
 ___
 
-_Site built by [adh1b](https://github.com/adh1b)_
+Site built by [adh1b](https://github.com/adh1b)
