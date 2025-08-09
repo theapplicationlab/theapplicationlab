@@ -67,7 +67,7 @@ weight = 4 # No change needed
 
 [[main]]
 parent = "About"
-name = "About Application Lab"
+name = "About The Application Lab"
 url = "/about-aplab/"
 weight = 1
 
@@ -101,7 +101,7 @@ weight = 5
 
 # Explore Column
 [[footer_explore_new]]
-  name = "Application Lab Resources"
+  name = "The Application Lab Resources"
   url = "/resources/"
   weight = 1 # Set to 1
 [[footer_explore_new]]
@@ -145,7 +145,7 @@ weight = 5
 
 # About & Legal Column
 [[footer_legal_new]]
-  name = "About Application Lab"
+  name = "About The Application Lab"
   url = "/about-aplab/"
   weight = 1
 [[footer_legal_new]]

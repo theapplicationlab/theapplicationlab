@@ -4,7 +4,7 @@ description: ""
 
 ---
 
-**The heart of Application Lab is its community. Whether you're looking to learn, contribute your expertise, or seeking mentorship, there's a place for you here.**
+**The heart of The Application Lab is its community. Whether you're looking to learn, contribute your expertise, or seeking mentorship, there's a place for you here.**
 
 *   **Engage with us** in our [WhatsApp Community](https://chat.whatsapp.com/JgONfqufJQlKl53XPAddIM?mode=ac_t).
 *   **Share your knowledge** by giving a talk, writing a blog post, or leading an initiative.

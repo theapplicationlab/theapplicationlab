@@ -1,5 +1,5 @@
 ---
-title: Application Lab Resources
+title: The Application Lab Resources
 description: A hub for workshops, blogs, guides, and resources to support every stage of your international university application journey.
 draft: false
 sections:

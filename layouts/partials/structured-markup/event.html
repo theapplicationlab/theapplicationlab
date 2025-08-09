@@ -52,7 +52,7 @@
     "thumbnailUrl" $imageUrls
     "uploadDate" ($page_context.Date.Format "2006-01-02T15:04:05Z07:00")
     "embedUrl" (printf "https://www.youtube.com/embed/%s" .Params.video)
-    "publisher" (dict "@type" "Organization" "name" "Application Lab" "logo" (dict "@type" "ImageObject" "url" (absURL "Aplab-logo.png")))
+    "publisher" (dict "@type" "Organization" "name" "The Application Lab" "logo" (dict "@type" "ImageObject" "url" (absURL "Aplab-logo.png")))
   -}}
   {{- if gt (len $authorsLD) 0 -}}
     {{- $videoLD = merge $videoLD (dict "author" $authorsLD) -}}
@@ -68,7 +68,7 @@
     "image" $imageUrls
     "datePublished" ($page_context.Date.Format "2006-01-02T15:04:05Z07:00")
     "description" $page_context.Description
-    "publisher" (dict "@type" "Organization" "name" "Application Lab" "logo" (dict "@type" "ImageObject" "url" (absURL "Aplab-logo.png")))
+    "publisher" (dict "@type" "Organization" "name" "the Application Lab" "logo" (dict "@type" "ImageObject" "url" (absURL "Aplab-logo.png")))
   -}}
   {{- if $page_context.Lastmod -}}
     {{- $articleLD = merge $articleLD (dict "dateModified" ($page_context.Lastmod.Format "2006-01-02T15:04:05Z07:00")) -}}

@@ -10,7 +10,7 @@ logo_height = "54px"
 # if logo_webp set false, will not generate WEBP version of logo | default is true
 logo_webp = true
 # logo text will only show when logo is missing.
-logo_text = "Application Lab"
+logo_text = "The Application Lab"
 # navbar fixed to top
 navbar_fixed = true
 # theme-mode
@@ -26,9 +26,9 @@ google_adsense = ""     # example: ca-pub-xxxxxxxxxxxxxxxx
 # custom script on header, example: custom_script= "<script>console.log(\"Hello World\")</script>"
 custom_script = ""
 # copyright
-copyright = "© 2025 Application Lab. Powered by Hugo. Hosted on GitHub Pages."
+copyright = "© 2025 The Application Lab. Powered by Hugo. Hosted on GitHub Pages."
 
-homepageTitle = "Application Lab"
+homepageTitle = "The Application Lab"
 
 # Preloader
 # preloader module: https://github.com/gethugothemes/hugo-modules/tree/master/components/preloader
@@ -68,7 +68,7 @@ keywords = ["ApplicationLab", "University", "Applications", "Masters", "Abroad",
             "University of St Andrews", "University of Strathclyde", "University of East Anglia",
             "University of Kent", "University of Essex", "University of Surrey"]
 description = "The Application Lab is a peer-led mentorship and community initiative dedicated to supporting students from underrepresented and under-resourced backgrounds in navigating international university applications, with a primary focus on the UK."
-author = "Application Lab"
+author = "The Application Lab"
 image = "images/og-image.png"
 
 

@@ -1,6 +1,6 @@
 ---
-title: "About Application Lab"
-description: "Learn about Application Lab: our mission, community, mentorship, and this collaborative hub for university application support."
+title: "About The Application Lab"
+description: "Learn about The Application Lab: our mission, community, mentorship, and this collaborative hub for university application support."
 ---
 
 ### Powered by a global network of students and professionals from leading universities

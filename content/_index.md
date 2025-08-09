@@ -1,4 +1,4 @@
-<h1 class="section-title"> Welcome to Application Lab</h2>
+<h1 class="section-title"> Welcome to The Application Lab</h2>
 
 <p class="section-subtitle">The Application Lab is a peer-led mentorship and community initiative dedicated to supporting students from underrepresented and under-resourced backgrounds in navigating international university applications, with a primary focus on the UK.</p>
 
