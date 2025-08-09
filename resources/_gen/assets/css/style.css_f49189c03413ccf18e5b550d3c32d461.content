@@ -2496,22 +2496,15 @@ main {
 .mobile-nav-list .mobile-nav-parent-item > span{
   margin-bottom: 0.5rem;
   display: block;
-  padding-left: 1rem;
-  padding-right: 1rem;
   font-size: 0.875rem;
   line-height: 1.25rem;
   font-weight: 700;
   text-transform: uppercase;
   --tw-text-opacity: 1;
-  color: rgb(107 114 128 / var(--tw-text-opacity, 1));
-}
-.mobile-nav-list .mobile-nav-parent-item > span:is(.dark *){
-  --tw-text-opacity: 1;
-  color: rgb(156 163 175 / var(--tw-text-opacity, 1));
+  color: rgb(18 18 18 / var(--tw-text-opacity, 1));
 }
 .mobile-nav-list .mobile-nav-child-list{
   margin: 0px;
-  margin-bottom: 1rem;
   list-style-type: none;
   padding: 0px;
 }
@@ -2520,8 +2513,6 @@ main {
   border-radius: 0.375rem;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
-  padding-left: 1rem;
-  padding-right: 1rem;
   --tw-text-opacity: 1;
   color: rgb(68 68 68 / var(--tw-text-opacity, 1));
 }
@@ -2556,6 +2547,18 @@ main {
   background-color: rgb(188 251 255 / 0.2);
   --tw-text-opacity: 1;
   color: rgb(188 251 255 / var(--tw-text-opacity, 1));
+}
+.mobile-nav-parent-item{
+  margin-top: 0px;
+}
+.mobile-nav-child-list:last-of-type{
+  margin-bottom: 0px;
+}
+.mobile-nav-list > li{
+  margin-bottom: 0.5rem;
+}
+.mobile-nav-parent-item{
+  margin-top: 2rem;
 }
 .mobile-nav-overlay{
   position: fixed;
@@ -3453,6 +3456,9 @@ section .btn {
 }
 .leading-tight{
   line-height: 1.25;
+}
+.tracking-wide{
+  letter-spacing: 0.025em;
 }
 .text-\[var\(--color-primary-new\)\]{
   color: var(--color-primary-new);

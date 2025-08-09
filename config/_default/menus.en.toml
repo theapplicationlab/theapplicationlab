@@ -10,7 +10,6 @@ weight = 1
 hasChildren = true
 identifier = "explore-resources" # Add this identifier
 
-
 [[main]]
 parent = "explore-resources" # Match the identifier
 name = "Resources"
@@ -21,40 +20,40 @@ weight = 1
   description = "Your central hub to the Application Lab Resources."
 
 [[main]]
-parent = "explore-resources" # Match the identifier
-name = "Downloadable Resources"
-url = "/resources/downloadable-resources/"
-weight = 6
+parent = "explore-resources" # Add this new entry
+name = "Blog"
+url = "/blog/"
+weight = 2
 [main.params]
-  icon = "fas fa-file-arrow-down"
-  description = "Collection of downloadable resources."
+  icon = "fas fa-newspaper"
+  description = "Read blog posts on various topics."
 
 [[main]]
 parent = "explore-resources" # Match the identifier
 name = "Workshops"
 url = "/workshops/"
-weight = 7
+weight = 3
 [main.params]
   icon = "fas fa-chalkboard-user"
   description = "Expert-led workshops on various topics."
 
 [[main]]
-parent = "explore-resources" # Add this new entry
-name = "FAQ"
-url = "/resources/faq/"
-weight = 8
+parent = "explore-resources" # Match the identifier
+name = "Downloadable Resources"
+url = "/resources/downloadable-resources/"
+weight = 4
 [main.params]
-  icon = "fas fa-clipboard-question"
-  description = "Frequently Asked Questions."
+  icon = "fas fa-file-arrow-down"
+  description = "Collection of downloadable resources."
 
 [[main]]
 parent = "explore-resources" # Add this new entry
-name = "Blog"
-url = "/blog/"
-weight = 8
+name = "FAQ"
+url = "/resources/faq/"
+weight = 5
 [main.params]
-  icon = "fas fa-newspaper"
-  description = "Read blog posts on various topics."
+  icon = "fas fa-clipboard-question"
+  description = "Frequently Asked Questions."
 
 [[main]]
 name = "Mentorship"

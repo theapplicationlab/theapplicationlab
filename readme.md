@@ -1,6 +1,6 @@
 # The Application Lab Website
 
-This repository contains the source code for the official The Application Lab website, live at [theapplicationlab.com](https://theapplicationlab.com). 
+This repository contains the source code for The Application Lab website, live at [theapplicationlab.com](https://theapplicationlab.com). 
 
 ## Running Locally
 

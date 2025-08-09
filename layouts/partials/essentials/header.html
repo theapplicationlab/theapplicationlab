@@ -102,18 +102,15 @@
       {{ range site.Menus.main }}
       {{ if .HasChildren }}
       <li class="mobile-nav-parent-item">
-        <span>{{ .Name }}</span>
+        <span class="uppercase text-xs font-semibold tracking-wide">{{ .Name }}</span>
         <ul class="mobile-nav-child-list">
           {{ $children := .Children.ByWeight }}
-          {{ range $index, $child := $children }}
+          {{ range $children }}
           <li>
             <a href="{{ .URL | relLangURL }}" class="{{ if eq (.URL | absLangURL) $currentPage.Permalink }}active{{ end }}">
               {{ .Name }}
             </a>
           </li>
-          {{ if and (eq $index 0) (gt (len $children) 1) }}
-          <li class="px-4"><div class="h-px bg-border dark:bg-darkmode-border my-1"></div></li>
-          {{ end }}
           {{ end }}
         </ul>
       </li>
@@ -127,7 +124,7 @@
       {{ end }}
     </ul>
     {{ if site.Params.navigation_button.enable }}
-    <div class="p-4 mt-4 border-t border-border dark:border-darkmode-border">
+    <div class="p-4 mt-4 border-t border-border">
       <a href="{{ site.Params.navigation_button.link | relLangURL }}" class="btn btn-new-primary w-full text-center">
         <div class="text-center">
           <span class="block text-sm font-semibold leading-tight">{{ site.Params.navigation_button.label }}</span>
