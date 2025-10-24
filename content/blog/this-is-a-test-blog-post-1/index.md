@@ -1,5 +1,5 @@
 ---
-title: "This is a test blog post"
+title: "This is a post"
 description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. "
 image: catpc.jpg
 image_attribution:
