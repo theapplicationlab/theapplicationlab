@@ -19,12 +19,4 @@ alt_text="vishal"
 layout_class="reverse"
 >}}
 
-{{< founder_rectangle
-title="Dr Gurashish Singh"
-description="Dr Gurashish Singh is a Research Fellow at Durham University, working at the intersection of engineering and neuroscience to develop innovative diagnostic tools for neurodegenerative disorders. He holds a PhD in Organic Photonics Engineering from the University of Cambridge, a Master of Professional Engineering in Biomedical Engineering from the University of Sydney, and a Bachelor of Technology in Electronics and Communication Engineering from Guru Gobind Singh Indraprastha University. Dr Singh brings a global perspective to his research and is dedicated to mentoring students from underrepresented backgrounds, promoting accessibility and excellence in higher education."
-image="guru2.jpg"
-alt_text="guru"
-layout_class=""
->}}
-
 
