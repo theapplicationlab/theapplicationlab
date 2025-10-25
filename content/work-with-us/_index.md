@@ -36,4 +36,3 @@ sections:
     cta_text: "Send us an E-Mail"
     column: "col-12 lg:col-6"
 ---
-
