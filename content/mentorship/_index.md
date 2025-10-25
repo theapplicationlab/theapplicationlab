@@ -43,8 +43,8 @@ Ideal for students who are looking for detailed written feedback on their applic
 | CV + SOP/Personal Statement | Comprehensive written feedback on both documents to help you refine structure, clarity, and impact |
 | Scholarship Essay | In-depth feedback on essays and short-answer questions, with clear guidance on structure, storytelling, and how to present your experiences and goals effectively |
 | Research Proposal | Thorough feedback on structure, clarity, and research coherence, with guidance on framing your questions, methodology, and academic contribution to strengthen your proposal |
-<br>
 
+<br>
 ## How to get started
 1. Fill out our **[Mentorship Interest Form](https://docs.google.com/forms/d/11FF1D4aMOb4vNw7NrIOIzaA754jclf0YOqk0G2i2n9Q/viewform?edit_requested=true#responses)** 
    Share your background, academic interests, and goals so we can understand how best to support you.
