@@ -40,9 +40,8 @@ Ideal for students who are looking for detailed written feedback on their applic
 
 | Package | Details |
 |----------|----------|
-| CV + SOP / Personal Essay / Short Questions |  Detailed written feedback on both documents |
-| CV + SOP + Scholarship Essay | Comprehensive review of all three documents |
-| Research Proposals | Pricing based on length of proposal and depth of review required |
+| CV+ 1 SOP/Personal Statement|  Comprehensive written feedback on both documents to help you refine structure, clarity, and impact |
+| Scholarship Essay (Gates/Chevening/Commonwealth/Erasmus/Rhodes/Mastercard Foundation/Fulbright/Inlaks etc.)|  In-depth feedback on essays and short-answer questions, with clear guidance on structure, storytelling, and how to present your experiences and goals effectively. |
 
 <br>
 
