@@ -1,17 +1,17 @@
 ---
 title: "Mentorship"
-description: "Get Personalised Guidance for Your Global Applications."
+description: "Get one-on-one mentorship to turn your university aspirations into acceptances"
 ---
 
 ## How We Work
 
-> <h4>Personalised Matching</h4><p>Students share their goals, timeline, target programmes and Universities by filling a form. We recommend the best mentorship plan according to their needs and carefully match each student with a mentor based on discipline, university interests, and individual goals.</p>
+> <h4>Personalised Matching</h4><p>Students share their goals, timelines, target programmes and universities through our mentorship interest form. We then recommend the most suitable mentorship plan according to their needs and carefully match each student with a mentor aligned with their discipline, research interests, university preferences, and aspirations.</p>
 
-> <h4>Flexible, Online Sessions</h4><p>All sessions are conducted online and scheduled directly with your mentor for convenience and flexibility; Work with the same mentor for continuity, or choose different mentors based on your evolving needs and application stage.</p>
+> <h4>Online Sessions, Tailored to You</h4><p>All sessions are conducted online and scheduled directly with your mentor for convenience and flexibility. You can choose to work with the same mentor for continuity, or connect with different mentors based on your evolving needs and application stage.</p>
 
-> <h4>Actionable, Honest Feedback</h4><p>Mentors provide honest, practical guidance and actionable feedback at every stage of the application process/ help in reviewing your documents in a fair and timely manner/help crafting your story with clarity and confidence</p>
+> <h4>Actionable, Honest Feedback</h4><p>Mentors provide candid, hands-on support, strengthen your narrative, helping you refine your essays, and approach every stage of your application with confidence.</p>
 
-> <h4>Post-Admissions Support</h4><p>Continued support through connections with peer & alumni network, after you receive admission/ ongoing academic & career guidance/ successful applicants encouraged to become future mentors</p>
+> <h4>Guidance That Goes Beyond Getting In</h4><p> Stay connected beyond your admission through our peer and alumni network, with ongoing academic and career guidance. Successful applicants are encourages to return as mentors, fostering the circle of shared support and growth.</p>
 <br>
 
 ## What We Offer
