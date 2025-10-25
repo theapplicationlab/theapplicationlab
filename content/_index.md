@@ -1,10 +1,10 @@
 <h1 class="section-title"> Welcome to The Application Lab</h2>
 
-<p class="section-subtitle">The Application Lab is a peer-led mentorship and community initiative dedicated to supporting students from underrepresented and under-resourced backgrounds in navigating international university applications, with a primary focus on the UK.</p>
+<p class="section-subtitle">The Application Lab is a peer-led mentorship and community initiative dedicated to supporting students from underrepresented and under-resourced backgrounds in navigating international university applications.</p>
 
 {{< rectangle_text
 title="Who We Support"
-description="<ul><li>Student aspirants, including high schoolers, undergraduates, recent graduates, and postgraduates.</li><li>Aspirants seeking guidance for applications to global universities.</li></ul>"
+description="We support student aspirants at every stage of their academic journey, including high schoolers, undergraduates, recent graduates, and postgraduates, who are seeking guidance for applying to leading global universities."
 image="support.png"
 alt_text="student with a lightbulb"
 layout_class=""
