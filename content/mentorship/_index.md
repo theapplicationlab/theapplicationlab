@@ -29,10 +29,10 @@ Perfect for students seeking targeted advice, quick feedback, or focused support
 
 | Package | Best For | Validity |
 |----------|----------|----------|
-| 1 session | Perfect for quick questions or last-minute targeted feedback on specific parts of your application |  30 days  |
-| 2 sessions | Great for in-depth feedback to strengthen key aspects of your application |  60 days  |
-| 4 sessions | Perfect for strategic planning and detailed discussions of key documents of your application |  120 days  |
-| 6 sessions | End-to-end mentorship covering every stage of your application, from strategy and university selection to document reviews, preparation, and mock interviews |  180 days  |
+| 1&nbsp;session | Quick questions or last-minute targeted feedback on specific parts of your application | 30&nbsp;days |
+| 2&nbsp;sessions | In-depth feedback to strengthen key aspects of your application | 60&nbsp;days |
+| 4&nbsp;sessions | Strategic planning, detailed feedback and discussions of key documents of your application | 120&nbsp;days |
+| 6&nbsp;sessions | End-to-end mentorship covering every stage of your application, from strategy and university selection to document reviews, preparation, and mock interviews | 180&nbsp;days |
 
 <br> 
 <h2><span class="gradient-text">3. Document Review (Written Feedback Only)</span></h2>
@@ -40,9 +40,9 @@ Ideal for students who are looking for detailed written feedback on their applic
 
 | Package | Details |
 |----------|----------|
-| CV+ 1 SOP/Personal Statement|  Comprehensive written feedback on both documents to help you refine structure, clarity, and impact |
+| CV+ 1 SOP/Personal Statement |  Comprehensive written feedback on both documents to help you refine structure, clarity, and impact |
 | Scholarship Essay (Gates/Chevening/Commonwealth/Erasmus/Rhodes/Mastercard Foundation/Fulbright/Inlaks etc.)|  In-depth feedback on essays and short-answer questions, with clear guidance on structure, storytelling, and how to present your experiences and goals effectively. |
-
+| Research proposal | Thorough feedback on structure, clarity, and research coherence, with guidance on framing your questions, methodology, and academic contribution to strengthen your proposal. |
 <br>
 
 ## How to get started
