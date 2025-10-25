@@ -23,7 +23,7 @@ Whether you are a current student or a recent graduate from a leading global uni
 
 <br>
 
-[Mentor Sign-Up](https://forms.office.com/r/CDaYdmMbz3){: .button}
+**[Mentor Sign-Up →](https://forms.office.com/r/CDaYdmMbz3)**
 
 <br>
 
@@ -47,4 +47,4 @@ Contribute your skills to support events, outreach, community initiatives, or he
 
 <br>
 
-[Send us an E-Mail](mailto:info@theapplicationlab.com){: .button}
+**[Send us an E-Mail →](mailto:info@theapplicationlab.com)**
