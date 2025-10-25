@@ -1,16 +1,16 @@
 ---
 title: "About The Application Lab"
-description: "Learn about The Application Lab: our mission, community, mentorship, and this collaborative hub for university application support."
+description: "At The Application Lab, we are building a global community that connects aspiring students with mentors to make higher education more accessible, inclusive, and achievable for all."
 ---
 
 ### Powered by a global network of students and professionals from leading universities
 
-TAL brings together a diverse community of passionate students and accomplished professionals from top universities and industries worldwide. This global network provides mentees with access to a wide range of expertise, insights, and real-world experience, ensuring well-rounded guidance throughout their application journeys.
+The Application Lab brings together a diverse community of passionate students and accomplished professionals from top universities and industries worldwide. This global network provides mentees with access to a wide range of research expertise, academic insights, and real-world experience, ensuring well-rounded guidance throughout their application journeys.
 
-### Built on values of access, empathy, and practical support
+### Built on Our Core Values: Access, Inclusion, Empowerment, and Transparency 
 
-At the heart of The Application Lab is a commitment to creating equal opportunities for all. The platform is dedicated to fostering a welcoming and inclusive environment where every mentee receives tailored, practical assistance. Empathy drives mentors to understand each mentee’s unique challenges and aspirations, while accessible resources and hands-on support help demystify every step of the application process.
+At the heart of The Application Lab is a commitment to equal opportunity. We foster an inclusive, empathetic space where every mentee receives tailored, practical guidance. Through accessible mentorship and hands-on support, we aim to demystify every step of the university application process and empower students to reach their full potential.
 
-###	Driven by a pay-it-forward model—today’s mentees become tomorrow’s mentors
+###	A Culture of Reciprocity: Where Mentorship Comes Full Circle 
 
-The Application Lab thrives on a cycle of generosity and community. Through the pay-it-forward model, today’s mentees are encouraged and empowered to contribute back as future mentors. This approach not only fosters a lasting culture of mutual support but also ensures the continual growth, renewal, and resilience of the lab’s mission: enabling more students to pursue their ambitions and, in turn, helping others do the same.
+The Application Lab thrives on a cycle of generosity and shared growth. Through our pay-it-forward model, today’s mentees are encouraged and empowered to return as mentors, creating a self-sustaining network of support. This culture of reciprocity fosters connection, accountability, and long-term impact, ensuring that every success story helps pave the way for someone else’s journey.
