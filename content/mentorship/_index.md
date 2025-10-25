@@ -38,23 +38,33 @@ Perfect for students seeking targeted advice, quick feedback, or focused support
 <h2><span class="gradient-text">3. Document Review (Written Feedback Only)</span></h2>
 Ideal for students who are looking for detailed written feedback on their application materials without booking a live session. Whether it’s your CV, personal statement, research proposal, or scholarship letter, a mentor will provide line-by-line comments, structural suggestions, and content-level guidance to help you strengthen your documents before submission.
 
-| Package | Details |
+| Documents | Details |
 |----------|----------|
-| CV+ 1 SOP/Personal Statement |  Comprehensive written feedback on both documents to help you refine structure, clarity, and impact |
-| Scholarship Essay (Gates/Chevening/Commonwealth/Erasmus/Rhodes/Mastercard Foundation/Fulbright/Inlaks etc.)|  In-depth feedback on essays and short-answer questions, with clear guidance on structure, storytelling, and how to present your experiences and goals effectively. |
-| Research proposal | Thorough feedback on structure, clarity, and research coherence, with guidance on framing your questions, methodology, and academic contribution to strengthen your proposal. |
+| CV + SOP/Personal Statement | Comprehensive written feedback on both documents to help you refine structure, clarity, and impact |
+| Scholarship Essay | In-depth feedback on essays and short-answer questions, with clear guidance on structure, storytelling, and how to present your experiences and goals effectively |
+| Research Proposal | Thorough feedback on structure, clarity, and research coherence, with guidance on framing your questions, methodology, and academic contribution to strengthen your proposal |
 <br>
 
 ## How to get started
-1. Fill out our **[Mentee Interest Form](https://docs.google.com/forms/d/11FF1D4aMOb4vNw7NrIOIzaA754jclf0YOqk0G2i2n9Q/viewform?edit_requested=true#responses)**
-2. Receive a tailored plan and mentor match.
-3. Schedule and attend sessions online.
+1. Fill out our **[Mentorship Interest Form](https://docs.google.com/forms/d/11FF1D4aMOb4vNw7NrIOIzaA754jclf0YOqk0G2i2n9Q/viewform?edit_requested=true#responses)** 
+   Share your background, academic interests, and goals so we can understand how best to support you.
+
+2. **Chat with a Team Member**  
+   Have a brief call with one of our team members to discuss your aspirations and what kind of mentorship would suit you best.
+
+3. **Meet Your Mentor**  
+   We'll match you with a mentor from your field. You'll start with a free 15-minute introductory chat to ensure a good fit.
+
+4. **Begin Your Mentorship Journey**  
+   Schedule and attend your sessions online — gaining guidance, feedback, and community support as you work toward your next opportunity.
 
 <br>
 
 ## Mentor Network
-We currently work with over 65+ mentors from diverse academic backgrounds and geographies. All mentors are selected not only for their expertise but also for their commitment to the values of the Application Lab: access, empathy, and clarity.
+The Application Lab is powered by a growing global network of 100+ mentors spanning diverse academic disciplines, professional fields, and regions. Our mentors include current students, alumni, and early-career professionals from world-leading universities who share a common goal: to make global education more accessible, equitable, and transparent. 
 
-Each mentor undergoes basic training and adheres to our ethical guidelines. Mentors are matched with students based on academic discipline, region/university of interest, and mentorship goals. We are building a pay-it-forward model where past mentees who successfully secure offers return to mentor future applicants, creating a self-sustaining and dynamic community.
+Each mentor is carefully selected not only for their academic and professional expertise but also for their commitment to the core values that define The Application Lab: access, inclusion, empowerment & transparency. They bring first-hand experience of navigating complex application systems and are passionate about helping others overcome the same challenges. 
 
+To ensure quality and integrity, all mentors receive basic orientation and agree to uphold our ethical mentorship guidelines, emphasising respect, confidentiality, and culturally sensitive guidance. Mentors are matched with students based on their academic discipline, research expertise, university of interest, and individual mentorship goals, ensuring tailored, relevant support. 
 
+The Application Lab follows a pay-it-forward model, where successful mentees are encouraged to return as mentors, contributing their insights to guide future applicants. This creates a self-sustaining, intergenerational community of learners and leaders – one that grows stronger through shared knowledge, generosity, and collaboration. 
