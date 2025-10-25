@@ -1,12 +1,12 @@
 ---
-title: "About The Application Lab"
-description: "Learn about The Application Lab: our mission, community, mentorship, and how our founders sparked this collaborative hub for university application support."
+title: "Why We Started"
+description: "Our founders wanted to create a space where guidance is free from gatekeeping, mentorship is personal and practical, and every student feels supported in pursuing their academic ambitions with confidence."
 
 ---
 
 <h2>Our Story: From Uncertainty to <span class="gradient-text"> Empowerment </span></h2>
 
-Embarking on the journey of applying to international universities, our founders encountered a landscape filled with uncertainty. Despite being motivated and capable, they faced a maze of confusing application requirements, culture-specific expectations, and a lack of transparent information. The road was often lonely, with self-doubt and second-guessing being frequent companions, and even simple questions felt daunting amidst the flood of generic advice.
+When our founders began their journeys applying to international universities, they faced a maze of unclear requirements, cultural expectations, and limited guidance. Motivated yet uncertain, they often navigated the process alone, battling self-doubt and confusion amid a sea of generic advice. The Application Lab emerged from this experience: a commitment to make the path clearer, kinder, and more accessible for those who follow. 
 <br>
 
 ### The Challenges
@@ -21,15 +21,15 @@ Embarking on the journey of applying to international universities, our founders
 
 ## What We Realised
 
-*   **Students do not lack ability—they lack accessible spaces to ask questions and receive honest advice from those who have lived it.**
-*   **Practical, lived-experience mentorship makes a measurable difference.**
+*   **Students do not lack talent or ambition. What they lack are accessible, supportive spaces to ask questions and receive honest guidance from those who have been through the process themselves.**
+*   **We learned that practical, experience-based mentorship can transform not only applications but also confidence and clarity.**
 
 <br>
 
 
 {{< rectangle_text
 title="Our Mission"
-description="<ul><li>Democratise access to <b>high-quality, empathetic mentorship across borders.</b></li><li>Help talented students <b>build strong, globally competitive profiles.</b></li><li>Support students as they <b>craft reflective, compelling applications.</b></li><li>Connect students to a <b>trusted mentorship community of peers and alumni.</b></li></ul>"
+description="<ul><li>Democratise access to <b>high-quality, empathetic mentorship across borders.</b></li><li>Help talented students <b>build strong, globally competitive profiles.</b></li><li>Support students <b>in crafting thoughtful, authentic, and compelling applications.</b></li><li>Connect students to a <b>trusted mentorship community of peers and alumni.</b></li></ul>"
 image="astronaut-in-space.png"
 alt_text="astronaut in space"
 layout_class=""
