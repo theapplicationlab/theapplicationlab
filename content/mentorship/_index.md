@@ -56,15 +56,19 @@ Ideal for students who are looking for detailed written feedback on their applic
    We'll match you with a mentor from your field. You'll start with a free 15-minute introductory chat to ensure a good fit.
 
 4. **Begin Your Mentorship Journey**  
-   Schedule and attend your sessions online — gaining guidance, feedback, and community support as you work toward your next opportunity.
+   Schedule and attend your sessions online, gaining guidance, feedback, and community support as you work toward your next opportunity.
 
 <br>
 
-## Mentor Network
-The Application Lab is powered by a growing global network of 100+ mentors spanning diverse academic disciplines, professional fields, and regions. Our mentors include current students, alumni, and early-career professionals from world-leading universities who share a common goal: to make global education more accessible, equitable, and transparent. 
+<div style="text-align: justify;">
 
-Each mentor is carefully selected not only for their academic and professional expertise but also for their commitment to the core values that define The Application Lab: access, inclusion, empowerment & transparency. They bring first-hand experience of navigating complex application systems and are passionate about helping others overcome the same challenges. 
+   ## Mentor Network
+   The Application Lab is powered by a growing global network of 100+ mentors spanning diverse academic disciplines, professional fields, and regions. Our mentors include current students, alumni, and early-career professionals from world-leading universities who share a common goal: to make global education more accessible, equitable, and transparent.
 
-To ensure quality and integrity, all mentors receive basic orientation and agree to uphold our ethical mentorship guidelines, emphasising respect, confidentiality, and culturally sensitive guidance. Mentors are matched with students based on their academic discipline, research expertise, university of interest, and individual mentorship goals, ensuring tailored, relevant support. 
+   Each mentor is carefully selected not only for their academic and professional expertise but also for their commitment to the core values that define The Application Lab: access, inclusion, empowerment & transparency. They bring first-hand experience of navigating complex application systems and are passionate about helping others overcome the same challenges.
 
-The Application Lab follows a pay-it-forward model, where successful mentees are encouraged to return as mentors, contributing their insights to guide future applicants. This creates a self-sustaining, intergenerational community of learners and leaders – one that grows stronger through shared knowledge, generosity, and collaboration. 
+   To ensure quality and integrity, all mentors receive basic orientation and agree to uphold our ethical mentorship guidelines, emphasising respect, confidentiality, and culturally sensitive guidance. Mentors are matched with students based on their academic discipline, research expertise, university of interest, and individual mentorship goals, ensuring tailored, relevant support.
+
+   The Application Lab follows a pay-it-forward model, where successful mentees are encouraged to return as mentors, contributing their insights to guide future applicants. This creates a self-sustaining, intergenerational community of learners and leaders – one that grows stronger through shared knowledge, generosity, and collaboration.
+
+   </div>

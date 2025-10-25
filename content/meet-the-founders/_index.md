@@ -1,6 +1,6 @@
 ---
 title: Meet the Founders
-description: "Get to know the team behind the Application Lab. We aim to break systemic barriers and build a culture of paying it forward, encouraging successful applicants to become future mentors and sustaining a vibrant and sustainable "
+description: "Get to know the founders who started The Application Lab with a shared belief that access to higher education should not depend on privilege or geography. What began as a small initiative to guide peers through complex applications has grown into a global community built on empathy, collaboration, and shared success."
 ---
 
 {{< founder_rectangle
