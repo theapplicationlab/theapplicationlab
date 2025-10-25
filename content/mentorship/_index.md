@@ -19,30 +19,28 @@ description: "Get one-on-one mentorship to turn your university aspirations into
 <h2><span class="gradient-text">1. Lab Pass (Monthly Mentorship Plan)</span></h2>
 Designed for students who are looking for structured, ongoing support across multiple stages of their application journey. This is best suited for students who are building their research profile ahead of future applications/applicants who want to strengthen their personal statements, CVs, and overall application strategy over time/ those who benefit from consistent guidance, accountability, and the chance to reflect and improve on their application with every session.
 
-| Package | Best For | Price | Validity |
-|----------|----------|----------|----------|
-| Lab Pass | Ongoing, structured mentorship and consistent support across the entire application journey | £75/month | 2 sessions/month, Minimum 3-month subscription |
+**2 sessions per month** | Minimum 3-month subscription
 
 <br>
 <h2><span class="gradient-text">2. Lab Focus (Flexible Pay-As-You-Go Sessions)</span></h2>
 Perfect for students who need targeted advice, quick feedback, or focused support on specific parts of their application. Whether you're finalising a personal statement, preparing for an interview, unsure about university choices, or just need a bit of direction and clarity, Lab Focus is designed to give you that timely push, without committing to long-term mentorship.
 
-| Package | Best For | Price | Validity |
-|----------|----------|----------|----------|
-| 1 session | One-off / Last-minute queries / Targeted advice | £49.99 | 30 days |
-| 2 sessions | Application review / Mock interview | £99.99 | 60 days |
-| 4 sessions | Support across key stages / Document reviews | £189.99 | 120 days |
-| 6 sessions | End-to-end support / Priority feedback | £279.99 | 180 days |
+| Package | Best For | Validity |
+|----------|----------|----------|
+| 1 session | One-off / Last-minute queries / Targeted advice | 30 days |
+| 2 sessions | Application review / Mock interview | 60 days |
+| 4 sessions | Support across key stages / Document reviews | 120 days |
+| 6 sessions | End-to-end support / Priority feedback | 180 days |
 
 <br>
 <h2><span class="gradient-text">3. Document Review (Written Feedback Only)</span></h2>
-Ideal for students who are looking for detailed written feedback on their application materials without booking a live session. Whether it’s your CV, personal statement, research proposal, or scholarship letter, a mentor will provide line-by-line comments, structural suggestions, and content-level guidance to help you strengthen your documents before submission.
+Ideal for students who are looking for detailed written feedback on their application materials without booking a live session. Whether it's your CV, personal statement, research proposal, or scholarship letter, a mentor will provide line-by-line comments, structural suggestions, and content-level guidance to help you strengthen your documents before submission.
 
-| Package | Price | Details |
-|----------|----------|----------|
-| CV + SOP / Personal Essay / Short Questions | £45  |  Detailed written feedback on both documents |
-| CV + SOP + Scholarship Essay | £70 | Comprehensive review of all three documents |
-| Research Proposals | Custom | Pricing based on length of proposal and depth of review required |
+| Package | Details |
+|----------|----------|
+| CV + SOP / Personal Essay / Short Questions | Detailed written feedback on both documents |
+| CV + SOP + Scholarship Essay | Comprehensive review of all three documents |
+| Research Proposals | Pricing based on length of proposal and depth of review required |
 
 <br>
 
