@@ -19,7 +19,9 @@ description: "Get one-on-one mentorship to turn your university aspirations into
 <h2><span class="gradient-text">1. Lab Pass (Monthly Mentorship Plan)</span></h2>
 Designed for students who are looking for structured, ongoing support across multiple stages of their application journey. This is best suited for students who are building their research profile ahead of future applications/applicants who want to strengthen their personal statements, CVs, and overall application strategy over time/ those who benefit from consistent guidance, accountability, and the chance to reflect and improve on their application with every session.
 
-**2 sessions per month** | Minimum 3-month subscription
+| Package | Best For | Validity |
+|----------|----------|----------|
+| Lab Pass | Ongoing, structured mentorship and consistent support across the entire application journey | 2 sessions/month, Minimum 3-month subscription |
 
 <br>
 <h2><span class="gradient-text">2. Lab Focus (Flexible Pay-As-You-Go Sessions)</span></h2>
@@ -34,11 +36,11 @@ Perfect for students who need targeted advice, quick feedback, or focused suppor
 
 <br>
 <h2><span class="gradient-text">3. Document Review (Written Feedback Only)</span></h2>
-Ideal for students who are looking for detailed written feedback on their application materials without booking a live session. Whether it's your CV, personal statement, research proposal, or scholarship letter, a mentor will provide line-by-line comments, structural suggestions, and content-level guidance to help you strengthen your documents before submission.
+Ideal for students who are looking for detailed written feedback on their application materials without booking a live session. Whether it’s your CV, personal statement, research proposal, or scholarship letter, a mentor will provide line-by-line comments, structural suggestions, and content-level guidance to help you strengthen your documents before submission.
 
 | Package | Details |
 |----------|----------|
-| CV + SOP / Personal Essay / Short Questions | Detailed written feedback on both documents |
+| CV + SOP / Personal Essay / Short Questions |  Detailed written feedback on both documents |
 | CV + SOP + Scholarship Essay | Comprehensive review of all three documents |
 | Research Proposals | Pricing based on length of proposal and depth of review required |
 
@@ -52,7 +54,7 @@ Ideal for students who are looking for detailed written feedback on their applic
 <br>
 
 ## Mentor Network
-We currently work with over 25+ mentors from diverse academic backgrounds and geographies. All mentors are selected not only for their expertise but also for their commitment to the values of the Application Lab: access, empathy, and clarity.
+We currently work with over 65+ mentors from diverse academic backgrounds and geographies. All mentors are selected not only for their expertise but also for their commitment to the values of the Application Lab: access, empathy, and clarity.
 
 Each mentor undergoes basic training and adheres to our ethical guidelines. Mentors are matched with students based on academic discipline, region/university of interest, and mentorship goals. We are building a pay-it-forward model where past mentees who successfully secure offers return to mentor future applicants, creating a self-sustaining and dynamic community.
 
