@@ -29,12 +29,8 @@ When our founders began their journeys applying to international universities, t
 
 {{< rectangle_text
 title="Our Mission"
-description="<ul><li>Democratise access to <b>high-quality, empathetic mentorship across borders.</b></li><li>Help talented students <b>build strong, globally competitive profiles.</b></li><li>Support students <b>in crafting thoughtful, authentic, and compelling applications.</b></li><li>Connect students to a <b>trusted mentorship community of peers and alumni.</b></li></ul>"
+description="<ul><li>Democratise access to <b>high-quality, empathetic mentorship across borders.</b></li><li>Help talented students <b>build strong, globally competitive profiles.</b></li><li>Support students in <b>crafting thoughtful, authentic, and compelling applications.</b></li><li>Connect students to a <b>trusted mentorship community of peers and alumni.</b></li></ul>"
 image="astronaut-in-space.png"
 alt_text="astronaut in space"
 layout_class=""
 >}}
-
-
-
-
