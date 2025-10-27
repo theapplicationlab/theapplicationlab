@@ -1,3 +1,4 @@
+---
 title: Getting Involved
 description: Join our growing community as a mentor, mentee, or volunteer, and help make higher education more accessible for everyone.
 draft: false
@@ -5,25 +6,96 @@ sections:
   - title: "Become a Mentor"
     url: "https://forms.office.com/r/CDaYdmMbz3"
     icon: "fas fa-person-chalkboard"
-    description: "<p style='text-align: justify;'>If you’re a current student or a recent graduate from a leading global university, your experience can inspire and guide others. Join us as a mentor to empower the next generation of applicants.</p>"
+    description: "**Whether you are a current student or a recent graduate from a leading global university, your experience can make a difference.** Join us as a mentor to guide and empower the next generation of applicants."
     key_areas:
-      - "<p style='text-align: justify;'><b>Application Strategy:</b> Help mentees craft a compelling application story and choose the right programmes or scholarships.</p>"
-      - "<p style='text-align: justify;'><b>Document Review:</b> Offer thoughtful feedback on personal statements, CVs, research proposals, and scholarship essays.</p>"
-      - "<p style='text-align: justify;'><b>Interview Preparation:</b> Build mentees’ confidence through mock interviews and feedback on clarity and presentation.</p>"
-      - "<p style='text-align: justify;'><b>Academic & Career Guidance:</b> Share honest insights about studying abroad, transitioning into academia or industry, and life at top universities.</p>"
-      - "<p style='text-align: justify;'><b>Confidence & Mindset Building:</b> Support mentees in overcoming self-doubt, impostor syndrome, and cultural challenges along the way.</p>"
+      - "**Application Strategy:** Guide mentees on building a strong, cohesive application narrative and selecting the right programmes or scholarships."
+      - "**Document Review:** Provide constructive, detailed feedback on personal statements, CVs, research proposals and scholarship essays."
+      - "**Interview Preparation:** Help mentees develop confidence through mock interviews, question practice and feedback on articulation and presentation."
+      - "**Academic & Career Guidance:** Share insights about studying abroad, transitioning into academia or industry, and navigating life at top universities."
+      - "**Confidence & Mindset Building:** Support mentees in overcoming self-doubt, impostor syndrome and cultural barriers throughout their journey."
     cta_text: "Mentor Sign-up"
     column: "col-12 lg:col-6"
 
   - title: "Become a Volunteer"
     url: "mailto:info@theapplicationlab.com"
     icon: "fas fa-hand-holding-hand"
-    description: "<p style='text-align: justify;'>Join our mission by volunteering your skills to support events, outreach, or resource creation that helps students worldwide access better opportunities.</p>"
+    description: "**Contribute your skills to support events, outreach, community initiatives or help create educational resources that empower students worldwide.**"
     key_areas:
-      - "<p style='text-align: justify;'><b>Outreach & Partnerships:</b> Help us connect with universities, student networks, and global education communities.</p>"
-      - "<p style='text-align: justify;'><b>Events & Community Building:</b> Assist in organising mentorship sessions, webinars, and meet-ups for students and mentors.</p>"
-      - "<p style='text-align: justify;'><b>Content Creation:</b> Write blog posts, guides, or social content to make the application process easier to navigate.</p>"
-      - "<p style='text-align: justify;'><b>Research & Resources:</b> Contribute to toolkits, FAQs, and databases of scholarships, programmes, and best practices.</p>"
-      - "<p style='text-align: justify;'><b>Operations & Coordination:</b> Support scheduling, communication, and progress tracking across regions.</p>"
+      - "**Outreach & Partnerships:** Help connect The Application Lab with universities, student groups and global education networks."
+      - "**Events & Community Building:** Support in organising mentorship sessions, webinars and local or online meet-ups for students and mentors."
+      - "**Content Creation:** Develop blog posts, guides or social media content to make the application process clearer and more accessible."
+      - "**Research & Resource Development:** Contribute to building toolkits, FAQs and curated databases of scholarships, programmes and best practices."
+      - "**Operations & Coordination:** Assist with scheduling, communication and tracking mentorship progress across regions."
     cta_text: "Send us an E-Mail"
     column: "col-12 lg:col-6"
+---
+
+{{ define "main" }}
+<style>
+.text-justify {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.section-card {
+  padding: 1.5rem;
+  border-radius: 1rem;
+  border: 1px solid #e5e7eb;
+  background-color: #fff;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.05);
+}
+
+.key-area-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.key-area-list li {
+  margin-bottom: 0.75rem;
+  position: relative;
+  padding-left: 1.2rem;
+}
+
+.key-area-list li::before {
+  content: "•";
+  color: #2563eb;
+  position: absolute;
+  left: 0;
+}
+
+.section-card p,
+.section-card li {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #333;
+}
+</style>
+
+<section class="getting-involved container mx-auto px-4 my-10">
+  <h1 class="text-3xl font-bold mb-4">{{ .Title }}</h1>
+  <p class="text-justify text-lg mb-8">{{ .Description }}</p>
+
+  <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+    {{ range .Params.sections }}
+      <div class="section-card">
+        <div class="icon mb-4 text-3xl text-blue-700">
+          <i class="{{ .icon }}"></i>
+        </div>
+        <h2 class="text-xl font-semibold mb-3">{{ .title }}</h2>
+        <div class="text-justify mb-4">{{ .description | markdownify }}</div>
+
+        <ul class="key-area-list">
+          {{ range .key_areas }}
+            <li class="text-justify">{{ . | markdownify }}</li>
+          {{ end }}
+        </ul>
+
+        <a href="{{ .url }}" class="inline-block mt-5 px-5 py-2 rounded-lg bg-blue-700 text-white hover:bg-blue-800 transition">
+          {{ .cta_text }}
+        </a>
+      </div>
+    {{ end }}
+  </div>
+</section>
+{{ end }}
