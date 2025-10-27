@@ -52,16 +52,22 @@ sections:
 }
 
 .key-area-list li {
-  margin-bottom: 0.75rem;
-  position: relative;
-  padding-left: 1.2rem;
+  margin-bottom: 1rem;
 }
 
-.key-area-list li::before {
-  content: "•";
-  color: #2563eb;
-  position: absolute;
-  left: 0;
+.key-area-heading {
+  font-weight: 600;
+  display: block;
+  color: #111827;
+  margin-bottom: 0.25rem;
+}
+
+.key-area-description {
+  text-align: justify;
+  text-justify: inter-word;
+  color: #333;
+  margin: 0;
+  line-height: 1.6;
 }
 
 .section-card p,
@@ -87,7 +93,11 @@ sections:
 
         <ul class="key-area-list">
           {{ range .key_areas }}
-            <li class="text-justify">{{ . | markdownify }}</li>
+            {{ $split := split . ":" 2 }}
+            <li>
+              <span class="key-area-heading">{{ index $split 0 | markdownify }}</span>
+              <p class="key-area-description">{{ index $split 1 | markdownify }}</p>
+            </li>
           {{ end }}
         </ul>
 
